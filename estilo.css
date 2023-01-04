@@ -1,0 +1,110 @@
+*{
+	font-family: 'poppins', sans-serif;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	outline: none; 
+	border: none;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+body{
+background: url(img/bolhas.jpeg);
+background-repeat: no-repeat;
+}
+
+.container{
+min-height: 70vh;
+display: flex;
+align-items: center;
+justify-content: center;
+flex-flow: column;
+
+}
+
+.container form{
+
+background: url(img/map.png), opacity .10, transparent;
+background-repeat: no-repeat;
+border-radius: 15px;
+padding: 20px;
+width: 420px;
+
+border: 1px solid #fff;
+box-shadow:0 8px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19)
+}
+
+.container .email span{
+display: block;
+color: #ccc;
+padding-bottom: 5px;
+}
+
+.container .email input{
+width: 100%;
+padding: 10px;
+border-radius: 5px;
+border: 1px solid rgba(0,0,0,.3);
+color: #444;
+margin-bottom: 10px;
+text-transform: none;
+}
+.container form .perf{
+display: flex;
+align-items: center;
+justify-content: center;
+text-align: center;
+
+}
+
+.container form .perf img{
+border-radius: 45px;
+border: 1px solid #fff;
+width: 70px;
+height: 70px;
+}
+
+
+.container #logar{
+width: 100%;
+background: linear-gradient(70deg,#11303d,#003399,#11303d);
+-moz-border-radius: 10px 10px 1000px 1000px;
+-webkit-border-radius: 10px 10px 1000px 1000px;
+-o-border-radius: 10px 10px 1000px 1000px;
+
+border-right: 1px solid #fff;
+border-left: 1px solid #fff;
+
+color: transparent;
+padding: 10px;
+font-size: 16px;
+color: #fff;
+cursor: pointer;
+transition: .2s linear;
+margin-bottom: 10px;
+}
+
+.container #logar:hover{
+letter-spacing: 2px;
+opacity: .8;
+}
+
+.container form .funcoes{
+font-size: 11px;
+color: #A1A1A1;
+padding: 3px;
+margin: 2px;
+}
+
+.container form .funcoes #a1{
+float: right;
+color: #cddc39;
+}
+.container form .funcoes #a2{
+float: right;
+color: DodgerBlue;
+}
+
+
+
